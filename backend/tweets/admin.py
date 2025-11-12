@@ -3,6 +3,5 @@ from .models import Tweet
 
 @admin.register(Tweet)
 class TweetAdmin(admin.ModelAdmin):
-    list_display = ('author', 'content', 'timestamp', 'likes', 'retweets', 'replies')
-    search_fields = ('author', 'content')
-    list_filter = ('timestamp',)
+    list_display = ['id', 'author', 'content', 'created_at']  # use campos que existem
+    list_filter = ['created_at']  # use campos que existem
