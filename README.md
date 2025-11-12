@@ -1,13 +1,13 @@
 # Twitter Clone
 
 ## Autor
-Diego Cavalcanti
+Rafael Glowacki
 
 ## Versão
 1.0
 
 ## Data
-2025-01-03
+12-11-2025
 
 ---
 
