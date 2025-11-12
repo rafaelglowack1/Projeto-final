@@ -11,7 +11,7 @@ ENV PYTHONUNBUFFERED=1 \
     PIP_DISABLE_PIP_VERSION_CHECK=on \
     PIP_DEFAULT_TIMEOUT=100 \
     \
-    # poetry
+    # poetry 2
     # https://python-poetry.org/docs/configuration/#using-environment-variables
     POETRY_VERSION=1.7.1 \
     # make poetry install to this location
